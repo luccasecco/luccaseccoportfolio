@@ -370,7 +370,7 @@ section.parallax {
   position: relative;
   width: 100%;
   height: 18.75rem;
-  background-image: url('./assets/code-bg.jpg');
+  background-image: url('./assets/parallax-bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
