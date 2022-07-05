@@ -604,4 +604,8 @@ section.parallax {
     margin: 15px auto;
     text-align: left;
   }
+
+  .back-to-top {
+    right: 2.1rem;
+  }
 }
