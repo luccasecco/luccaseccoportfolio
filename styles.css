@@ -514,7 +514,7 @@ section.parallax {
   transform: translateY(-8px);
 }
 
-/* Back to top */
+/* Back to top
 
 .back-to-top {
   background: #4eacdf;
@@ -535,7 +535,7 @@ section.parallax {
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 /* MEDIA QUERIES */
 @media (max-width: 1000px) {
@@ -603,9 +603,5 @@ section.parallax {
   #contact .links {
     margin: 15px auto;
     text-align: left;
-  }
-
-  .back-to-top {
-    right: 2.1rem;
   }
 }
