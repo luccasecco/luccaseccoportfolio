@@ -363,7 +363,7 @@ h1 {
 /* ============ PARALLAX =============================== */
 section.parallax {
   margin-top: 100px;
-  padding: 4rem;
+  padding: 6rem;
   position: relative;
   width: 100%;
   height: 18.75rem;
@@ -378,9 +378,9 @@ section.parallax {
   position: relative;
   z-index: 2;
   color: black;
-  font-weight: bold;
   font-size: 30px;
   padding: 0 2rem;
+  font-weight: bold;
 }
 
 .parallax p {
@@ -389,10 +389,9 @@ section.parallax {
   position: relative;
   z-index: 2;
   color: black;
-  font-weight: bold;
   line-height: 1.5;
   font-size: 22px;
-  color: #141414;
+  font-weight: bold;
 }
 
 /* CONTACT */
@@ -560,10 +559,6 @@ section.parallax {
   .card:hover > .card-wrapper::before {
     height: 190px;
     width: 190px;
-  }
-
-  .parallax {
-    padding: 0.5rem;
   }
 
   .parallax p {
