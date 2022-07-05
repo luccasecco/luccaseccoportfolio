@@ -368,9 +368,9 @@ section.parallax {
   margin-top: 100px;
   padding: 6rem;
   position: relative;
-  width: 100%;
-  height: 18.75rem;
-  background-image: url('./assets/bg-code.jpg');
+  width: 100vw;
+  height: 19.75rem;
+  background-image: url('./assets/code-bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -383,7 +383,7 @@ section.parallax {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
@@ -391,11 +391,11 @@ section.parallax {
   margin-left: 60px;
   position: relative;
   z-index: 2;
-  color: #cbd5e1;
-  font-size: 30px;
+  color: #67e8f9;
+  font-size: 25px;
   padding: 0 2rem;
-  font-weight: bold;
   z-index: 2;
+  font-family: 'Poppins', sans-serif;
 }
 
 .parallax p {
@@ -403,11 +403,12 @@ section.parallax {
   padding: 3rem;
   position: relative;
   z-index: 2;
-  color: #cbd5e1;
+  color: #67e8f9;
   line-height: 1.8;
-  font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: 500;
   z-index: 2;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* CONTACT */
@@ -552,11 +553,7 @@ section.parallax {
     flex-direction: column;
   }
 
-  .container .card-container:nth-child(1) {
-    flex-direction: column-reverse;
-  }
-
-  .container .card-container:nth-child(2) {
+  .container .card-container:first-child {
     flex-direction: column-reverse;
   }
 
