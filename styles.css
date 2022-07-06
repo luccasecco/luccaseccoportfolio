@@ -5,6 +5,7 @@ body {
   font-family: 'amatic sc', sans-serif;
   overflow-x: hidden;
   background: #cbd5e1;
+  max-width: 100vw;
 
   -webkit-font-smoothing: antialiased;
 }
@@ -594,6 +595,7 @@ h1 {
 
   #contact .contact {
     justify-content: center;
+    padding: 0 2%;
   }
 
   .back-to-top {
