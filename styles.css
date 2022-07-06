@@ -605,10 +605,6 @@ h1 {
     margin-top: 1rem;
     margin-left: -2rem;
   }
-
-  .back-to-top {
-    right: 2rem;
-  }
 }
 
 @media (max-width: 550px) {
@@ -624,9 +620,5 @@ h1 {
   #contact .links {
     margin: 15px auto;
     text-align: left;
-  }
-
-  .back-to-top {
-    right: 2.1rem;
   }
 }
